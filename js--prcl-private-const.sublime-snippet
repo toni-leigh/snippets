@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+/**
+ * retrieves classes for this component
+ *
+ * @private
+ * @method _classes
+ * @param {Object} classes - formatted as an object for processing, will contain various props
+ * @return {String} classes in HTML attribute format
+ */
+const _classes = (classes, props) => {
+  return classNames(
+    '$1', {
+      '$2': this.props.$3
+    }
+  );
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>prcl</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

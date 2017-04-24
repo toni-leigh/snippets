@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+import React from 'react';
+import { shallow } from 'enzyme';
+
+import $1 from './$2';
+
+describe('<$1 />', () => {
+  let wrapper = shallow(<$1 />);
+});
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>rs</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

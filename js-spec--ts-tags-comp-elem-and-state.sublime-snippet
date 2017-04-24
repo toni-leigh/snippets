@@ -1,0 +1,34 @@
+<snippet>
+  <content><![CDATA[
+fdescribe("tags", () => {
+  describe("on component", () => {
+    let wrapper = shallow(<$1 data-element='bar' data-role='baz' />);
+
+    it('include correct component, element and role data tags', () => {
+      rootTagTest(wrapper, '$2', 'bar', 'baz');
+    });
+  });
+
+  describe("on internal elements", () => {
+    describe("when closed", () => {
+      let wrapper = shallow(<$1 />);
+
+      elementsTagTest(wrapper, [
+        '$3'
+      ]);
+    });
+    describe("when open", () => {
+      let wrapper = shallow(<$1 />);
+      wrapper.setState({ open: true });
+      elementsTagTest(wrapper, [
+        '$4'
+      ]);
+    });
+  });
+});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>ts</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

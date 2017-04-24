@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+import React from 'react';
+import classNames from 'classnames';
+
+class $1 extends React.Component {
+  render() {
+    return (
+      <$2 className='${3:carbon-}'>{ ${0:props.children} }</$2>
+    );
+  }
+}
+
+export default $1;
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>rc</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

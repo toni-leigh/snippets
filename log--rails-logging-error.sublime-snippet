@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+rescue => e
+  Rails.logger.error("$0: #{e.message}")
+  Rails.logger.error(e.backtrace.join("\n"))
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>log</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

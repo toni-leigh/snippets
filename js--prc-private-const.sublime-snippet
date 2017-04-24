@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+/**
+ * $1
+ *
+ * @private
+ * @method _$2
+ * @param {${3:Object}} ${4:props} - ${5:formatted as an object for processing, will contain various props}
+ * @return {$6} $7
+ */
+const _$2 = (${4:props}) => {
+  return $8;
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>prc</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

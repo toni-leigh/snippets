@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+{ _debug(props) }$0
+const _debug = (props) => { console.log(props); return (<div />); }$0
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>fd</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

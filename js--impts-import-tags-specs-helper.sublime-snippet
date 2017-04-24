@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+import { elementsTagTest, rootTagTest } from '../../utils/helpers/tags/tags-specs';
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>impts</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

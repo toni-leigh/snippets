@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+fdescribe("tags on component", () => {
+  let wrapper = shallow(<$1 data-element='bar' data-role='baz' />);
+
+  it('include correct component, element and role data tags', () => {
+    rootTagTest(wrapper, '$2', 'bar', 'baz');
+  });
+});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>tc</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>
